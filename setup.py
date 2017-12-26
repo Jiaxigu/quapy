@@ -14,6 +14,6 @@ setup(
     author_email='jiaxi.gu@epfl.ch',
     license='MIT',
     install_requires=['matplotlib', 'shapely'],
-    packages=['quapy']
+    packages=['quapy'],
     py_modules=['quapy']
 )
