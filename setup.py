@@ -2,10 +2,6 @@
 
 from setuptools import setup
 
-
-with open('LICENSE') as f:
-    license = f.read()
-
 setup(
     name='quapy',
     version='0.1.0',
