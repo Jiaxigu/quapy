@@ -6,6 +6,6 @@ The idea is to automatically parse GeoJSON files into efficient data types ready
 
 ## Install
 
-    python setup.py install
+    >>> python setup.py install
 
 ## Usage
