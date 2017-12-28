@@ -1,1 +1,1 @@
-from .qua import *
+from .quapy import *
