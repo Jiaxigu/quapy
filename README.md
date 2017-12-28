@@ -2,8 +2,10 @@
 
 Python interface for [qua-kit](https://github.com/achirkin/qua-kit) scenarios. 
 
-The idea is to automatically parse GeoJSON files into [shapely](https://github.com/Toblerity/Shapely) geometries while keeping the properties to prepare for data and architectural analysis.
+The idea is to automatically parse GeoJSON files into efficient data types ready for data and architectural analysis.
 
 ## Install
+
+    >>> python setup.py install
 
 ## Usage
