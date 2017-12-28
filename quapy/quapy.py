@@ -37,7 +37,7 @@ class Building:
         plot the polygon with matplotlib.
         :type c: str
         """
-        plt.plot(self.geometry.convex_vertices()[0], self.geometry.convex_vertices()[1], c)
+        plt.plot(self.geometry.exterior.xy[0], self.geometry.exterior.xy[1], c)
         plt.axis('equal')
     
     
