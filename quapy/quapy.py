@@ -104,7 +104,7 @@ class Scenario:
         returns a list of buildings within the area given.
         :type polygon: shapely.geometry.polygon
         """
-        return [b for b in self.buildings if polygon.contains(b.geometry())]
+        return [b for b in self.buildings if polygon.contains(b.geometry.convex_hull)]
     
     
     ###############
