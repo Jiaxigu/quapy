@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='quapy',
-    version='0.2.0',
+    version='0.3.0',
     description='Python interface for qua-kit scenarios',
     author='Jiaxi Gu',
     author_email='jiaxi.gu@epfl.ch',
