@@ -49,7 +49,7 @@ Access name of the scenario:
 	
 Access buildings in the scenario:
 
-	>>> for b in s.buidlings:
+	>>> for b in s.buildings:
 	>>> 	*do something with b*
 	
 ### Building attributes
@@ -83,7 +83,14 @@ Show all type of tags:
 	>>> s.tags
 	<<< ['type', 'use']
 	
-Show building tags:
+Show tags of a specific building:
 	
 	>>> b.tags
 	<<< {'use': 'Public', 'type': 'Gate'}
+	
+### Plot
+
+Plot a scenario or a building with matplotlib:
+
+	>>> s.plot()
+	>>> b.plot()
