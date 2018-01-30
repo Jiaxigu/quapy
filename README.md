@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/Jiaxigu/quapy.svg?branch=master)](https://travis-ci.org/Jiaxigu/quapy)
+[![Coverage Status](https://coveralls.io/repos/github/Jiaxigu/quapy/badge.svg?branch=master)](https://coveralls.io/github/Jiaxigu/quapy?branch=master)
+
 # quaPy
 
 Python interface for [qua-kit](https://github.com/achirkin/qua-kit) scenarios. 
